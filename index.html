@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<!-- Meta tags requeridos -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="js/script.js"></script>
+	<!-- biblioteca bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caveat|Pinyon+Script" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+
+	<title>Ahmad & Husniah</title>
+	<link rel="shortcut icon" href="images/pc1.jpeg" type="image/x-icon">
+
+</head>
+
+<body data-spy="scroll" data-target="#menu-principal" data-offset="0">
+
+	<div class="container-fluid fondo-principal">
+
+		<nav id="menu-principal" class="navbar navbar-expand-lg navbar-light bg-light navbar-expand d-md-none d-lg-none d-xl-none fixed-bottom">
+			<!-- <a class="navbar-brand" href="#">Ahmad & Husniah</a> -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" data-toggle="collapse" data-target=".navbar-collapse.show"
+				id="navbarSupportedContent">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Beranda<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#mempelai">Mempelai</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#akad">Akad</a>
+					</li>
+					<!-- <li class="nav-item">
+						<a class="nav-link" href="#lokasi">Lokasi</a>
+					</li> -->
+					<li class="nav-item">
+						<a class="nav-link" href="#galeri">Galeri</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#check-in">Check-in</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+				<!-- -------Vidio------ -->
+				<br>
+				<div class="row">
+				<div class="col-12">
+				<div class="carousel-item active">
+					<video class="img-fluid " max-width: 100% autoplay loop muted>
+					<source src="vidio/vidiobaru2.mp4" type="video/mp4" />
+					</video>
+				</div>
+				</div>
+				</div>
+
+				<div class="container-fluid text-center" id="kutipan">
+					<div class="row beige">
+						<div class="col-12 cuadrado">
+							<h1>Our Love Story</h1>
+							<p>1.First Meet (2022)
+							 </p> Bulan agustus 2022 kami pertama kali bertemu di kelas 10, karena husniah masuk
+								  sebagai murid baru. Dalam masa kelas 10 kami hanya teman biasa.
+						    </p>2.Relationship (2023)
+							    </p>25 Februari 2023 kami mengikat janji sebagai sepasang kekasih 
+							</p>3.Engagement (2024)
+							    </p> Lika-liku hubungan kami lewati bersama hingga kami memutuskan untuk 
+								  bertunangan pada tanggal 27 Agustus 2024
+							</p> 4.Married (2025)
+							    </p>Kami memutuskan untuk mengikat janji suci pernikahan pada tanggal
+								  18 Februari 2025
+							</p>
+							<div class="icon-animasi2"></div>
+						</div>
+					</div>
+
+	<!-- Beranda -->
+	<div class="jumbotron text-center">
+		<h1 class="display-6" id="mempelai">Kedua Mempelai</h1>
+		<img src="images/cppcpw.jpeg" class="tandem">
+	</div>
+
+	<div class="container-fluid text-center" id="kutipan">
+		<div class="row beige">
+			<div class="col-12 cuadrado">
+				<h1>Cinta adalah sebuah fitrah bagi manusia</h1>
+				<p>”Dari Aisyiah r.a Berikut bahwa Rasulullah saw bersabda: menikah adalah sunahku siapa yang tidak mengamalkan
+					maka dia bukan umatku,menikahlah karena aku sangat senang atas jumlah besar kalian dihadapan umat umat lain.
+					Siapa yang telah memiliki kesanggupan maka menikahlah jika tidak maka berpuasalah karena puasa itu bisa 
+					menjadi kendali" (HR Ibnu Majah)
+				</p>
+				<div class="icon-animasi"></div>
+			</div>
+		</div>
+<!-- Beranda end -->
+
+<!-- Akad -->
+		<div id="akad"></div>
+		<img src="images/bunga3.jpeg" width="300px">
+		<div class="col-12">
+			<div>
+				<h1>Akad & Resepsi</h1>
+				<hr class="my-4">
+				<h3>18 Februari 2025</h3>
+				<h3>Mulai pukul 08.00 s/d Selesai</h3>
+				<br>
+				<div class="countdown">
+					<!-- -------Countdown------ -->
+				<p id="demo"></p>
+				<script>
+					// Mengatur waktu akhir perhitungan mundur
+					var countDownDate = new Date("Feb 18, 2025 07:00:00").getTime();
+
+					// Memperbarui hitungan mundur setiap 1 detik
+					var x = setInterval(function () {
+
+						// Untuk mendapatkan tanggal dan waktu hari ini
+						var now = new Date().getTime();
+
+						// Temukan jarak antara sekarang dan tanggal hitung mundur
+						var distance = countDownDate - now;
+
+						// Perhitungan waktu untuk hari, jam, menit dan detik
+						var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+						var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+						var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+						var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+						// Keluarkan hasil dalam elemen dengan id = "demo"
+						document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
+							minutes + "m " + seconds + "s ";
+
+						// Jika hitungan mundur selesai, tulis beberapa teks 
+						if (distance < 0) {
+							clearInterval(x);
+							document.getElementById("demo").innerHTML = "EXPIRED";
+						}
+					}, 1000);
+				</script>
+				</div>
+				<img src="images/bunga4.jpeg" width="300px">
+		
+				<!-- -------Vidio------ -->
+				<br>
+				<div class="row">
+				<div class="col-12">
+				<div class="carousel-item active">
+					<video class="img-fluid " max-width: 100% autoplay loop muted>
+					<source src="vidio/vidiobaru1.mp4" type="video/mp4" />
+					</video>
+				</div>
+				</div>
+				</div>
+				
+<!-- Akad end -->
+<br>
+<!-- Lokasi -->
+		<div id="lokasi"></div>
+		<div class="row light-gray">
+			<div class="col-12">
+				<br>
+				<div class="daun">
+					<img src="images/KEMBANGbaru.jpeg" width="200px">
+				</div>
+				<h1>Lokasi</h1>
+				<h1><i class="em em-house"></i></h1>
+				<h2>Kediaman mempelai wanita</h2>
+				<h5>Aula MA'Arif Cilageni</h5>
+				<h5>RT 002 / RW 005</h5>
+				<h5>Desa: Karangmulya</h5>
+				<h5>Kec: Kadungora</h5>
+				<h5>Kab: Garut</h5>
+				<br>
+				<div class="rute">
+					<h6>Untuk melihat rute, klik "Lihat peta lebih besar" pada maps</h6>
+				</div>
+				<div class="peta-responsive">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.419352189548!2d107.89327317481111!3d-7.077283992925522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c90044c83f2f%3A0x892f47ed76504ba9!2sMTs%20MA%20AL-MA&#39;ARIF%20CILAGENI!5e0!3m2!1sid!2sid!4v1739345061657!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+						width="400" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+						aria-hidden="false" tabindex="0"></iframe>
+				</div>
+				<br>
+				<br>
+			</div>
+		</div>
+<!-- Lokasi end -->
+
+		<br>
+
+<!-- Galeri -->
+		<div id="galeri"></div>
+		<div class="row">
+				<div class="col-12">
+					<h1>Galeri</h1>
+				</div>
+				<div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+					<img
+					src="images/galeri2.jpeg"
+					class="w-100 shadow-1-strong rounded mb-4"
+					alt="Boat on Calm Water"
+					/>
+				
+					<img
+					src="images/galeri1.jpeg"
+					class="w-100 shadow-1-strong rounded mb-4"
+					alt="Wintry Mountain Landscape"
+					/>
+				</div>
+				
+				<div class="col-lg-4 mb-4 mb-lg-0">
+					<img
+					src="images/galeri3.jpeg"
+					class="w-100 shadow-1-strong rounded mb-4"
+					alt="Mountains in the Clouds"
+					/>
+				
+					<img
+					src="images/galeri10.jpeg"
+					class="w-100 shadow-1-strong rounded mb-4"
+					alt="Boat on Calm Water"
+					/>
+				</div>
+				
+				<div class="col-lg-4 mb-4 mb-lg-0">
+					<img
+					src="images/galeri4.jpeg"
+					class="w-100 shadow-1-strong rounded mb-4"
+					alt="Waves at Sea"
+					/>
+				
+					<img
+					src="images/galeri6.jpeg"
+					class="w-100 shadow-1-strong rounded mb-4"
+					alt="Yosemite National Park"
+					/>
+				</div>
+				<div class="col-lg-4 mb-4 mb-lg-0">
+					<img
+					src="images/galeri7.jpeg"
+					class="w-100 shadow-1-strong rounded mb-4"
+					alt="Waves at Sea"
+					/>
+				
+					<img
+					src="images/galeri8.jpeg"
+					class="w-100 shadow-1-strong rounded mb-4"
+					alt="Yosemite National Park"
+					/>
+				</div>
+				<div class="col-lg-4 mb-4 mb-lg-0">
+					<img
+					src="images/galeri9.jpeg"
+					class="w-100 shadow-1-strong rounded mb-4"
+					alt="Waves at Sea"
+					/>
+				
+					<img
+					src="images/galeri11.jpeg"
+					class="w-100 shadow-1-strong rounded mb-4"
+					alt="Yosemite National Park"
+					/>
+				</div>
+				<div class="col-lg-4 mb-4 mb-lg-0">
+					<img
+					src="images/galeri13.jpeg"
+					class="w-100 shadow-1-strong rounded mb-4"
+					alt="Waves at Sea"
+					/>
+				
+					<img
+					src="images/galeri12.jpeg"
+					class="w-100 shadow-1-strong rounded mb-4"
+					alt="Yosemite National Park"
+					/>
+				</div>
+		</div>
+<!-- Galeri end -->
+
+<!-- Qr-Code Checkin -->
+		<div id="check-in"></div>
+		<div class="row">
+			<div class="col-12">
+			<img src="images/00NwOJ/sop-ian.png" width="70%">
+			</div>
+		</div>
+<!-- Qr-Code Checkin end -->
+
+<!-- Ucapan Terima Kasih -->
+		<br>
+		<div class="row">
+			<div class="col-12">
+			<img src="images/terimakasih.jpeg" width="90%">
+			</div>
+		</div>
+<!-- Ucapan Terima Kasih end -->
+
+		<div class="col-12 col-md-12">
+			<footer>Dibuat dengan sepenuh hati oleh <a href="https://www.instagram.com/refalinagustina_b/"> @refalinagustina_b</a> <a href="https://www.instagram.com/jupeng_xy">@jupeng_xy</a>
+			</footer>
+		</div>
+		<div class="before-footer"></div>
+	
+	</div>
+	<!-- biblioteca bootstrap js -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+	</script>
+
+	<!-- -----------audio----------- -->
+	<div class="hide">
+		<audio controls autoplay id="myAudio">
+			<source src="audio/audionikah.mp3">
+		</audio>
+		<p id="play-music"></p>
+		<script>
+			function myFunction() {
+				var music = document.getElementById("myAudio").autoplay;
+				document.getElementById("play-music").innerHTML = music;
+			}
+		</script>
+	</div>
+	<!-- -----------audio----------- -->
+
+</body>

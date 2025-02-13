@@ -1,0 +1,229 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	height: 100%;
+	font-family: 'Caveat', cursive;
+	background-color: #875c3b;
+}
+
+.fondo-principal {
+	background-position: center;
+	height: 800px;
+	background-image: url(images/coverbaru2.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.transparente {
+	margin-top: 50px;
+	height: 500px;
+	background-color: transparent;
+	color: black;
+}
+
+.tandem {
+	width: 400px;
+	max-width: 100%;
+}
+
+img.logo-fecha {
+	max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+	.fondo-principal {
+		background-image: url(images/coverbaru3.jpeg);
+		height: 720px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	img.logo-fecha {
+		display: none;
+	}
+
+	.tandem {
+		width: 300px;
+	}
+
+	.icon-animasi2 {
+		background-image: url(images/galeri11.jpeg);
+		height: 400px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-bottom: -30px;
+	}
+	.icon-animasi {
+		background-image: url(images/galeri12.jpeg);
+		height: 400px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-bottom: -30px;
+	}
+}
+
+.fisik {
+	background-color: rgb(35, 170,228);
+	text-align: center;
+}
+
+.fisik img {
+	border: solid rgb(35, 170, 228) 5px;
+	border-radius: 5px;
+	margin-top: 5px;
+	width: 300px;
+}
+
+h1 {
+	font-family: 'Pinyon Script', cursive;
+}
+
+h2 {
+	font-family: 'Pinyon Script', cursive;
+}
+
+
+
+.aladerecha {
+	width: 400px;
+	position: fixed;
+	right: 50px;
+}
+
+.principal {
+	margin: 100px;
+	padding-bottom: 200px;
+}
+
+.cuadrado {
+	margin-top: 30px;
+	margin-bottom: 70px;
+	max-width: 100%;
+}
+
+.ilustracion {
+	max-width: 100%;
+}
+
+.light-gray {
+	background-color: #ffffff;
+}
+
+.beige {
+	background-color: #fafafa;
+}
+
+.jumbotron {
+	background-color: #FAfafa;
+}
+
+.jumbotron .tandem {
+	box-shadow: 2px #000000;
+}
+
+.jumbotron {
+	margin-bottom: -10px;
+}
+
+.float {
+	position: fixed;
+	bottom: 0.5px;
+	/* left: 15%; */
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+footer {
+	font-family: "Gill Sans", sans-serif;
+	height: 50px;
+	width: 100%;
+	padding-top: 5px;
+	background-color: rgb(255, 255, 255);
+	margin-top: 10px;
+}
+
+.before-footer {
+	font-family: "Gill Sans", sans-serif;
+	height: 50px;
+	width: 100%;
+	padding-top: 5px;
+	background-color: rgb(255, 255, 255);
+	margin-bottom: 20px;
+}
+
+.smart-scroll {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+}
+
+.scrolled-down {
+	transform: translateY(-100%);
+	transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+	transform: translateY(0);
+	transition: all 0.3s ease-in-out;
+}
+
+.countdown {
+	text-align: center;
+	font-size: 50px;
+}
+
+.rute {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	/* padding-top: 30px; */
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*CSS PETA RESPONSIVE */
+.peta-responsive {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+
+.peta-responsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+#maps{
+	color: #FAFAFA;
+}
+/* .bunga-satu {
+	background-image: url(images/bunga.png);
+	height: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 10px 0px 10px 0px;
+} */

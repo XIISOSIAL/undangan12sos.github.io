@@ -24,14 +24,13 @@
 
 		<nav id="menu-principal" class="navbar navbar-expand-lg navbar-light bg-light navbar-expand d-md-none d-lg-none d-xl-none fixed-bottom">
 			<!-- <a class="navbar-brand" href="#">Ahmad & Husniah</a> -->
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<div class="collapse navbar-collapse" data-toggle="collapse" data-target=".navbar-collapse.show"
-				id="navbarSupportedContent">
-				<ul class="navbar-nav mx-auto">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+				<a class="navbar-brand" href=></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+				  <ul class="navbar-nav">
 					<li class="nav-item active">
 						<a class="nav-link" href="#">Beranda<span class="sr-only">(current)</span></a>
 					</li>
@@ -187,13 +186,13 @@
 					<img src="images/bunga.png" width="200px">
 				</div>
 				<h1>Lokasi</h1>
-				<h1><i class="em em-house"></i></h1>
-				<h2>Kediaman mempelai wanita</h2>
-				<h5>Aula MA'Arif Cilageni</h5>
-				<h5>RT 002 / RW 005</h5>
-				<h5>Desa: Karangmulya</h5>
-				<h5>Kec: Kadungora</h5>
-				<h5>Kab: Garut</h5>
+				<img
+				src="images/lokasi2.jpeg"
+				class="w-100 shadow-1-strong rounded mb-4"
+				alt="Mountains in the Clouds"
+				/>
+				
+				
 				<br>
 				<div class="rute">
 					<h6>Untuk melihat rute, klik "Lihat peta lebih besar" pada maps</h6>
@@ -207,6 +206,26 @@
 				<br>
 			</div>
 		</div>
+		<h1>Love Story</h1>
+		<div class="container-fluid text-center" id="kutipan">
+			<div class="row beige">
+				<div class="col-12 cuadrado">
+					
+					<h4>First Meet</h4>
+					<p>Bulan agustus tahun 2022 kami pertama kali bertemu dikelas 10, 
+						karena Husniah masuk sebagai murid baru. Dalam masa kelas 10 kami 
+						hanya teman biasa.</p>
+					<h4>Relationship</h4>
+					<p>Pada tanggal 25 Februari 2023 kami mengikat janji sebagai sepasang
+						kekasih.</p>
+					<h4>Engagement</h4>
+					<p>Lika liku hubungan kami lewati bersama hingga kami memutuskan
+						untuk bertunangan pada tanggal 27 Agustus 2024.</p>
+					<h4>Married</h4>
+					<p>Kami memutuskan untuk mengikat janji suci pernikahan ini pada 
+						tanggal 18 Februari 2025.</p>
+				</div>
+			</div>
 <!-- Lokasi end -->
 
 <!-- Video -->
@@ -218,11 +237,22 @@
  <div class="col-12">
  <div class="carousel-item active">
 	 <video class="img-fluid " max-width: 100% autoplay loop muted>
-	 <source src="vidio/vidiobaru1.mp4" type="video/mp4" />
+	 <source src="vidio/vidnew1.mp4" type="video/mp4" />
 	 </video>
  </div>
  </div>
  </div>
+ <br>
+ <div class="row">
+ <div class="col-12">
+ <div class="carousel-item active">
+	 <video class="img-fluid " max-width: 100% autoplay loop muted>
+	 <source src="vidio/vidnew2.mp4" type="video/mp4" />
+	 </video>
+ </div>
+ </div>
+ </div>
+
 <!-- Video end -->
 <br>
 <!-- Galeri -->
@@ -356,7 +386,18 @@
 			  <img class="d-block w-100" src="images/XII M2.jpeg" alt="Third slide">
 			</div>
 			</div>
-	
+			<div class="navigation-button">
+				<span class="dot active" onclick="changeSlide(0)"></span>
+				<span class="dot" onclick="changeSlide(1)"></span>
+				<span class="dot" onclick="changeSlide(2)"></span>
+				<span class="dot" onclick="changeSlide(3)"></span>
+				<span class="dot" onclick="changeSlide(4)"></span>
+				<span class="dot" onclick="changeSlide(5)"></span>
+				<span class="dot" onclick="changeSlide(6)"></span>
+				<span class="dot" onclick="changeSlide(7)"></span>
+				<span class="dot" onclick="changeSlide(8)"></span>
+				<span class="dot" onclick="changeSlide(9)"></span>
+			</div>
 
 		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>

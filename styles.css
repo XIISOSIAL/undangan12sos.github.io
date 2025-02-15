@@ -11,7 +11,7 @@ body {
 .fondo-principal {
 	background-position: center;
 	height: 800px;
-	background-image: url(images/coverbaru2.jpeg);
+	background-image: url(images/covernew1.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -34,7 +34,7 @@ img.logo-fecha {
 
 @media screen and (max-width: 600px) {
 	.fondo-principal {
-		background-image: url(images/covernew1.jpeg);
+		background-image: url(images/covernew2.jpeg);
 		height: 720px;
 		background-position: center;
 		background-repeat: no-repeat;

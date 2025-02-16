@@ -34,7 +34,7 @@ img.logo-fecha {
 
 @media screen and (max-width: 600px) {
 	.fondo-principal {
-		background-image: url(images/covernew2.jpeg);
+		background-image: url(images/cover222.jpeg);
 		height: 720px;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -115,11 +115,11 @@ h2 {
 }
 
 .beige {
-	background-color: #fafafa;
+	background-color: #ffffff;
 }
 
 .jumbotron {
-	background-color: #FAfafa;
+	background-color: #Ffffff;
 }
 
 .jumbotron .tandem {
